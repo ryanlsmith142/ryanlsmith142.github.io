@@ -1,6 +1,8 @@
 nav {
     font-family: 'Raleway', sans-serif;
+    background-color: #1672E9;
 }
+
 
 body {
     font-family: 'Roboto Slab', serif;
@@ -19,6 +21,7 @@ body {
 }
 
 /*CUSTOM CARD CLASS AND CSS*/
+
 .project-card-div {
     display: flex;
     flex-direction: column;
@@ -36,14 +39,49 @@ h5.card-title {
 .card {
     margin-bottom: 2em;
 }
+
 /*CUSTOM JUMBOTRON CLASS*/
+
 .custom-jumbotron {
-    height: 50px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-family: 'Raleway', sans-serif;
+    padding: 0;
 }
+
+
+.custom-jumbotron>h3 {
+    text-decoration: underline;
+}
+
+/*SMALL SCREENS*/
+
+@media (max-width: 576px) {
+
+}
+
+/*MEDIUM SCREENS*/
+
+@media (min-width: 768px) {
+    .project-card-div {
+        /*display: flex;*/
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+/*LARGE SCREENS*/
+@media (min-width: 992px) {
+    .project-card-div {
+        flex-direction: row;
+    }
+}
+
+
 
 
 
