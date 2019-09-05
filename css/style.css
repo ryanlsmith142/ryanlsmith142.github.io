@@ -1,5 +1,22 @@
+nav {
+    font-family: 'Raleway', sans-serif;
+}
 
+body {
+    font-family: 'Roboto Slab', serif;
+}
 
+/*GITHUB AND LINKEDIN ICONS*/
+
+.github-icon {
+    width: 45px;
+    height: 45px;
+}
+
+.linkedin-icon {
+    width: 50px;
+    height: 50px;
+}
 
 /*CUSTOM CARD CLASS AND CSS*/
 .project-card-div {
@@ -23,8 +40,9 @@ h5.card-title {
 .custom-jumbotron {
     height: 50px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
 }
 
 
